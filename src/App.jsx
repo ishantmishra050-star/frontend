@@ -29,7 +29,7 @@ ChartJS.register(
   Legend
 );
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'https://snacks-backend-ap8u.onrender.com/api';
 
 function App() {
   const [data, setData] = useState(null);
